@@ -83,7 +83,7 @@
 			o: 1
 		});
 		setTimeout(function () {
-			interactEnd(e, 500);
+			interactEnd(e, 2000);
 		});
 	};
 
