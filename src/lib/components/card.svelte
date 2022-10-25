@@ -295,7 +295,7 @@
 		}
 	});
 	document.addEventListener("mouseout", () => {
-	  	console.log("mouseout2");
+	  	console.log("mouseout3");
 		//interactEnd(null, 2000);
 	});
 	document.addEventListener("mouseleave", () => {
@@ -330,8 +330,7 @@
 			on:pointerup={activate}
 			on:pointermove={interact}
 			on:mouseleave={deactivate}
-		     	on:mouseout={interactEnd}
-			on:blur={deactivate}
+
 			tabindex=0
 		>
 			<img class="card__back" src="{cardBack}" alt="" />
