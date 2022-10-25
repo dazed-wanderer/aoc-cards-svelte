@@ -59,9 +59,9 @@
 				<Card
 					img={card.images.large}
 					number={card.number}
-					supertype={card.supertype}
-					subtypes={card.subtypes}
-					rarity={card.rarity}
+					supertype='pokémon'
+					subtypes='basic'
+					rarity='common' 
 				/>
 			{/each}
 		{/await}
@@ -76,9 +76,9 @@
 				<Card
 					img={card.images.large}
 					number={card.number}
-					supertype={card.supertype}
-					subtypes={card.subtypes}
-					rarity={card.rarity}
+					supertype='pokémon'
+					subtypes='basic'
+					rarity='rare holo'
 				/>
 			{/each}
 		{/await}
@@ -94,9 +94,9 @@
 				<Card
 					img={card.images.large}
 					number={card.number}
-					supertype={card.supertype}
-					subtypes={card.subtypes}
-					rarity={card.rarity}
+					supertype='pokémon'
+					subtypes='stage'
+					rarity="rare holo galaxy"
 				/>
 			{/each}
 		{/await}
@@ -111,9 +111,9 @@
 				<Card
 					img={card.images.large}
 					number={card.number}
-					supertype={card.supertype}
+					supertype='pokémon'
 					subtypes={card.subtypes}
-					rarity={card.rarity}
+					rarity='rare holo v'
 				/>
 			{/each}
 		{/await}
@@ -128,9 +128,9 @@
 				<Card
 					img={card.images.large}
 					number={card.number}
-					supertype={card.supertype}
+					supertype='pokémon'
 					subtypes={card.subtypes}
-					rarity={card.rarity}
+					rarity='rare holo vmax'
 				/>
 			{/each}
 		{/await}
@@ -145,9 +145,9 @@
 				<Card
 					img={card.images.large}
 					number={card.number}
-					supertype={card.supertype}
+					supertype='pokémon'
 					subtypes={card.subtypes}
-					rarity={card.rarity}
+					rarity='rare holo vstar'
 				/>
 			{/each}
 		{/await}
@@ -162,9 +162,9 @@
 				<Card
 					img={card.images.large}
 					number={card.number}
-					supertype={card.supertype}
+					supertype='pokémon'
 					subtypes={card.subtypes}
-					rarity={card.rarity}
+					rarity='rare ultra'
 				/>
 			{/each}
 		{/await}
@@ -179,9 +179,9 @@
 				<Card
 					img={card.images.large}
 					number={card.number}
-					supertype={card.supertype}
+					supertype='supporter'
 					subtypes={card.subtypes}
-					rarity={card.rarity}
+					rarity='rare ultra'
 				/>
 			{/each}
 		{/await}
@@ -196,9 +196,9 @@
 				<Card
 					img={card.images.large}
 					number={card.number}
-					supertype={card.supertype}
+					supertype='pokémon'
 					subtypes={card.subtypes}
-					rarity={card.rarity}
+					rarity='rare rainbow'
 				/>
 			{/each}
 		{/await}
@@ -213,9 +213,9 @@
 				<Card
 					img={card.images.large}
 					number={card.number}
-					supertype={card.supertype}
+					supertype='pokémon'
 					subtypes={card.subtypes}
-					rarity={card.rarity}
+					rarity='rare rainbow alt'
 				/>
 			{/each}
 		{/await}
@@ -230,9 +230,9 @@
 				<Card
 					img={card.images.large}
 					number={card.number}
-					supertype={card.supertype}
+					supertype='pokémon'
 					subtypes={card.subtypes}
-					rarity={card.rarity}
+					rarity='rare secret'
 				/>
 			{/each}
 		{/await}
@@ -247,26 +247,26 @@
 				<Card
 					img={card.images.large}
 					number={card.number}
-					supertype={card.supertype}
+					supertype='pokémon'
 					subtypes={card.subtypes}
-					rarity={card.rarity}
+					rarity='radiant'
 				/>
 			{/each}
 		{/await}
 	</CardList>
-
+	
 	<h2>Holofoil 13</h2>
 	<CardList>
 		{#await getCards()}
 			loading...
 		{:then cards}
-			{#each rainbow as card, id}
+			{#each trainerHolo as card, id}
 				<Card
 					img={card.images.large}
 					number={card.number}
-					supertype={card.supertype}
-					subtypes={card.subtypes}
-					rarity={card.rarity}
+					supertype='supporter'
+					subtypes='supporter'
+					rarity='rare holo'
 				/>
 			{/each}
 		{/await}
@@ -277,13 +277,13 @@
 		{#await getCards()}
 			loading...
 		{:then cards}
-			{#each gold as card, id}
+			{#each rainbow as card, id}
 				<Card
 					img={card.images.large}
 					number={card.number}
-					supertype={card.supertype}
+					supertype='pokémon'
 					subtypes={card.subtypes}
-					rarity={card.rarity}
+					rarity='rare holo v'
 				/>
 			{/each}
 		{/await}
@@ -294,11 +294,28 @@
 		{#await getCards()}
 			loading...
 		{:then cards}
+			{#each gold as card, id}
+				<Card
+					img={card.images.large}
+					number={card.number}
+					supertype='pokémon'
+					subtypes={card.subtypes}
+					rarity='rare holo v'
+				/>
+			{/each}
+		{/await}
+	</CardList>
+
+	<h2>Holofoil 16</h2>
+	<CardList>
+		{#await getCards()}
+			loading...
+		{:then cards}
 			{#each veeGallery as card, id}
 				<Card
 					img={card.images.large}
 					number={card.number}
-					supertype={card.supertype}
+					supertype='pokémon'
 					subtypes={card.subtypes}
 					rarity={card.rarity}
 				/>
