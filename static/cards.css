@@ -89,7 +89,7 @@
 
   background-blend-mode: soft-light, soft-light, screen, overlay;
   background-position: center, calc(((50% - var(--posx)) * 25) + 50%) center, calc(var(--posx)*-1.2) var(--posy), var(--pos), center;
-  background-size: 100% 100%, 200% 200%, 237% 237%, 195% 195%, 120% 120%;
+  background-size: var(--imgsize), 200% 700%, 300%, 200%;
 
   filter: brightness(calc((var(--hyp) + 0.7)*0.7)) contrast(3) saturate(.35);
 
@@ -172,7 +172,7 @@
 
   background-blend-mode: color-dodge, color-burn, saturation, screen;
   background-position: center, center, center, calc(((50% - var(--posx)) * 2.5) + 50%) calc(((50% - var(--posy)) * 2.5) + 50%), center;
-  background-size: cover, cover, cover, 600% 1200%, cover;
+  background-size: var(--imgsize), 200% 700%, 300%, 200%;
 
   filter: brightness(.75) contrast(1.2) saturate(1.5);
   mix-blend-mode: color-dodge;
