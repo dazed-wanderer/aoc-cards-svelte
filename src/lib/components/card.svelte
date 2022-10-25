@@ -87,8 +87,8 @@
 	const interactEnd = (e, delay = 500) => {
 		setTimeout(function () {
 			
-			const snapStiff = 0.01;
-			const snapDamp = 0.06;
+			const snapStiff = 0;
+			const snapDamp = 0;
 			interacting = false;
 
 			springRotate.stiffness = snapStiff;
@@ -102,8 +102,6 @@
 			springBackground.stiffness = snapStiff;
 			springBackground.damping = snapDamp;
 			springBackground.set({ x: 50, y: 50 });
-			console.log('Interact End');
-
 		}, delay);
 	};
 
@@ -296,8 +294,9 @@
 			}, 2000);
 		}
 	});
-	document.querySelector("body").addEventListener("mouseleave", () => {
-	  console.log("mouseleave");
+	document.addEventListener("mouseleave", () => {
+	  	console.log("mouseleave");
+		interactEnd(null, 0);
 	});
 </script>
 
