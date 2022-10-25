@@ -82,9 +82,6 @@
 			y: percent.y,
 			o: 1
 		});
-		setTimeout(function () {
-			interactEnd(e, 500);
-		}, 500);
 	};
 
 	const interactEnd = (e, delay = 500) => {
@@ -298,6 +295,11 @@
 
 			}, 2000);
 		}
+	});
+	window.addEventListener("blur", function() {
+		setTimeout(() => {
+			interactEnd(null, 0);
+		}, 1000 );
 	});
 	
 </script>
