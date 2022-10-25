@@ -298,7 +298,7 @@
 			}, 2000);
 		}
 	});
-	document.addEventListener("focus", () => {
+	window.on("focus", () => {
 	  	console.log("on focus");
 		resetBaseOrientation();
 		interactEnd(null, 0);
