@@ -296,7 +296,7 @@
 	});
 	document.addEventListener("mouseout", () => {
 	  	console.log("mouseout");
-		interactEnd(null, 0);
+		interactEnd(null, 500);
 	});
 	document.addEventListener("mouseleave", () => {
 	  	console.log("mouseleave");
@@ -330,6 +330,7 @@
 			on:pointerup={activate}
 			on:pointermove={interact}
 			on:mouseleave={deactivate}
+		     	on:mouseout={deactivate}
 			on:blur={deactivate}
 			tabindex=0
 		>
