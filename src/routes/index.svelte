@@ -219,23 +219,6 @@
 			{/each}
 		{/await}
 	</CardList>
-
-	<h2>Holofoil 10</h2>
-	<CardList>
-		{#await getCards()}
-			loading...
-		{:then cards}
-			{#each gold as card, id}
-				<Card
-					img={card.images.large}
-					number={card.number}
-					supertype='pokémon'
-					subtypes={card.subtypes}
-					rarity='rare holo v'
-				/>
-			{/each}
-		{/await}
-	</CardList>
 </main>
 
 <style>
