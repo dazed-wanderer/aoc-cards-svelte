@@ -126,6 +126,7 @@
 		$activeCard = undefined;
 	}
 	const mouseOut = (e) => {
+		console.log("mouseout8");
 		resetBaseOrientation();
 		interactEnd(e, 0);
 	}
@@ -298,7 +299,7 @@
 		}
 	});
 	document.addEventListener("mouseout", () => {
-	  	console.log("mouseout7");
+	  	
 		//interactEnd(null, 2000);
 	});
 	document.addEventListener("mouseleave", () => {
