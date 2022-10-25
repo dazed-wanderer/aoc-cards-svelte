@@ -25,21 +25,21 @@
 		let cards = await cardFetch.json();
 		window.cards = cards;
 
-		basics = cards.slice(0, 6);
-		holos = cards.slice(6, 12);
-		galaxies = cards.slice(12, 15);
-		radiant = cards.slice(15, 18);
-		basicGallery = cards.slice(60, 63);
-		vee = cards.slice(18, 21);
-		veeUltra = cards.slice(21, 24);
-		veeAlt = [...cards.slice(27, 30), ...cards.slice(33, 36)];
-		veeMax = cards.slice(24, 27);
-		veeMaxAlt = [cards[36], cards[31], cards[37]];
-		veeStar = cards.slice(39, 42);
-		trainerHolo = cards.slice(42, 48);
-		rainbow = cards.slice(48, 51);
-		gold = cards.slice(51, 60);
-		veeGallery = cards.slice(63, 69);
+		basics = cards.slice(0, 23);
+		holos = cards.slice(0, 23);
+		galaxies = cards.slice(0, 23);
+		radiant = cards.slice(0, 23);
+		basicGallery = cards.slice(0, 23);
+		vee = cards.slice(0, 23);
+		veeUltra = cards.slice(0, 23);
+		veeAlt = cards.slice(0, 23);
+		veeMax = cards.slice(0, 23);
+		veeMaxAlt = cards.slice(0, 23);
+		veeStar = cards.slice(0, 23);
+		trainerHolo = cards.slice(0, 23);
+		rainbow = cards.slice(0, 23);
+		gold = cards.slice(0, 23);
+		veeGallery = cards.slice(0, 23);
 
 		return cards;
 	};
