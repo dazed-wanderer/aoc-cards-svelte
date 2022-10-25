@@ -298,8 +298,8 @@
 			}, 2000);
 		}
 	});
-	window.addEventListener("onfocus", () => {
-	  	console.log("onfocus");
+	document.addEventListener("focus", () => {
+	  	console.log("on focus");
 		resetBaseOrientation();
 		interactEnd(null, 0);
 	});
