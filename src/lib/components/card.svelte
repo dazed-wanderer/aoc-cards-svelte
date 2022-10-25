@@ -126,8 +126,7 @@
 		$activeCard = undefined;
 	}
 	const mouseOut = (e) => {
-		interactEnd(e, 2000);
-		$activeCard = undefined;
+		interactEnd(e, 0);
 	}
 	const reposition = (e) => {
 		clearTimeout(debounce);
@@ -332,6 +331,7 @@
 			bind:this={rotator}
 			on:pointerup={activate}
 			on:pointermove={interact}
+		     	on:mouseout={mouseOut}
 			on:blur={deactivate}
 			tabindex=0
 		>
