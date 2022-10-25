@@ -298,6 +298,10 @@
 	  	console.log("mouseleave");
 		interactEnd(null, 0);
 	});
+	document.addEventListener("mouseenter", () => {
+	  	console.log("mouseenter");
+		interactEnd(null, 0);
+	});
 </script>
 
 <svelte:window on:scroll="{reposition}" />
