@@ -296,8 +296,8 @@
 			}, 2000);
 		}
 	});
-	window.addEventListener('mouseleave', function(){
-		console.log('Mouseleave');
+	document.querySelector("body").addEventListener("mouseleave", () => {
+	  console.log("mouseleave");
 	});
 </script>
 
