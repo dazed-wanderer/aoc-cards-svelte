@@ -83,8 +83,8 @@
 			o: 1
 		});
 		setTimeout(function () {
-			interactEnd(e, 2000);
-		});
+			interactEnd(e, 500);
+		}, 2000);
 	};
 
 	const interactEnd = (e, delay = 500) => {
