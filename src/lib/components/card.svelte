@@ -296,7 +296,7 @@
 	});
 	document.addEventListener("mouseout", () => {
 	  	console.log("mouseout");
-		interactEnd(null, 500);
+		interactEnd(null, 2000);
 	});
 	document.addEventListener("mouseleave", () => {
 	  	console.log("mouseleave");
