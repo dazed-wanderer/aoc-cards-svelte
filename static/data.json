@@ -1,830 +1,290 @@
 [
   {
-    "id": "sm35-1",
-    "name": "Bulbasaur",
-    "supertype": "Pokémon",
-    "subtypes": ["Basic"],
+    "id": "aoc-alpha-rf-1",
+    "name": "Grumpi",
+    "supertype": "Freedom",
+    "subtypes": ["Gnome"],
     "number": "1",
     "rarity": "Common",
     "images": {
-      "small": "https://images.pokemontcg.io/sm35/1.png",
-      "large": "https://images.pokemontcg.io/sm35/1_hires.png"
+      "small": "https://cdn.discordapp.com/attachments/961652173362565180/1034302712038293584/gnome_card_1_grumpi_nf.png",
+      "large": "https://cdn.discordapp.com/attachments/961652173362565180/1034302712038293584/gnome_card_1_grumpi_nf.png"
     }
   },
   {
-    "id": "sm10-33",
-    "name": "Squirtle",
-    "supertype": "Pokémon",
-    "subtypes": ["Basic"],
-    "number": "33",
+    "id": "aoc-alpha-rf-2",
+    "name": "Harold",
+    "supertype": "Order",
+    "subtypes": ["Human"],
+    "number": "2",
     "rarity": "Common",
     "images": {
-      "small": "https://images.pokemontcg.io/sm10/33.png",
-      "large": "https://images.pokemontcg.io/sm10/33_hires.png"
+      "small": "https://cdn.discordapp.com/attachments/961652173362565180/1034186309859815434/card_1_common_herold_nf.png",
+      "large": "https://cdn.discordapp.com/attachments/961652173362565180/1034186309859815434/card_1_common_herold_nf.png"
     }
   },
   {
-    "id": "sm115-7",
-    "name": "Charmander",
-    "supertype": "Pokémon",
-    "subtypes": ["Basic"],
-    "number": "7",
-    "rarity": "Common",
-    "images": {
-      "small": "https://images.pokemontcg.io/sm115/7.png",
-      "large": "https://images.pokemontcg.io/sm115/7_hires.png"
-    }
-  },
-  {
-    "id": "swsh45-35",
-    "name": "Morpeko",
-    "supertype": "Pokémon",
-    "subtypes": ["Basic"],
-    "number": "35",
-    "rarity": "Common",
-    "images": {
-      "small": "https://images.pokemontcg.io/swsh45/35.png",
-      "large": "https://images.pokemontcg.io/swsh45/35_hires.png"
-    }
-  },
-  {
-    "id": "swsh9-120",
-    "name": "Bidoof",
-    "supertype": "Pokémon",
-    "subtypes": ["Basic"],
-    "number": "120",
-    "rarity": "Common",
-    "images": {
-      "small": "https://images.pokemontcg.io/swsh9/120.png",
-      "large": "https://images.pokemontcg.io/swsh9/120_hires.png"
-    }
-  },
-  {
-    "id": "sm8-142",
-    "name": "Dedenne",
-    "supertype": "Pokémon",
-    "subtypes": ["Basic"],
-    "number": "142",
+    "id": "aoc-alpha-rf-3",
+    "name": "Misha",
+    "supertype": "Freedom",
+    "subtypes": ["Mercenary"],
+    "number": "3",
     "rarity": "Uncommon",
     "images": {
-      "small": "https://images.pokemontcg.io/sm8/142.png",
-      "large": "https://images.pokemontcg.io/sm8/142_hires.png"
+      "small": "https://cdn.discordapp.com/attachments/961652173362565180/1034186311340400720/card_2_uncommon_misha_nf.png",
+      "large": "https://cdn.discordapp.com/attachments/961652173362565180/1034186311340400720/card_2_uncommon_misha_nf.png"
     }
   },
   {
-    "id": "pgo-24",
-    "name": "Articuno",
-    "supertype": "Pokémon",
-    "subtypes": ["Basic"],
-    "number": "24",
-    "rarity": "Rare Holo",
-    "images": {
-      "small": "https://images.pokemontcg.io/pgo/24.png",
-      "large": "https://images.pokemontcg.io/pgo/24_hires.png"
-    }
-  },
-  {
-    "id": "pgo-29",
-    "name": "Zapdos",
-    "supertype": "Pokémon",
-    "subtypes": ["Basic"],
-    "number": "29",
-    "rarity": "Rare Holo",
-    "images": {
-      "small": "https://images.pokemontcg.io/pgo/29.png",
-      "large": "https://images.pokemontcg.io/pgo/29_hires.png"
-    }
-  },
-  {
-    "id": "pgo-12",
-    "name": "Moltres",
-    "supertype": "Pokémon",
-    "subtypes": ["Basic"],
-    "number": "12",
-    "rarity": "Rare Holo",
-    "images": {
-      "small": "https://images.pokemontcg.io/pgo/12.png",
-      "large": "https://images.pokemontcg.io/pgo/12_hires.png"
-    }
-  },
-  {
-    "id": "swsh10-86",
-    "name": "Kleavor",
-    "supertype": "Pokémon",
-    "subtypes": ["Stage 1"],
-    "number": "86",
-    "rarity": "Rare Holo",
-    "images": {
-      "small": "https://images.pokemontcg.io/swsh10/86.png",
-      "large": "https://images.pokemontcg.io/swsh10/86_hires.png"
-    }
-  },
-  {
-    "id": "swsh9-132",
-    "name": "Boss's Orders",
-    "supertype": "Trainer",
-    "subtypes": ["Supporter"],
-    "number": "132",
-    "rarity": "Rare Holo",
-    "images": {
-      "small": "https://images.pokemontcg.io/swsh9/132.png",
-      "large": "https://images.pokemontcg.io/swsh9/132_hires.png"
-    }
-  },
-  {
-    "id": "pgo-43",
-    "name": "Tyranitar",
-    "supertype": "Pokémon",
-    "subtypes": ["Stage 2"],
-    "number": "43",
-    "rarity": "Rare Holo",
-    "images": {
-      "small": "https://images.pokemontcg.io/pgo/43.png",
-      "large": "https://images.pokemontcg.io/pgo/43_hires.png"
-    }
-  },
-  {
-    "id": "swshp-SWSH039",
-    "name": "Pikachu",
-    "supertype": "Pokémon",
-    "subtypes": ["Basic"],
-    "number": "SWSH039",
-    "rarity": "Rare Holo Galaxy",
-    "images": {
-      "small": "https://images.pokemontcg.io/swshp/SWSH039.png",
-      "large": "https://images.pokemontcg.io/swshp/SWSH039_hires.png"
-    }
-  },
-  {
-    "id": "swsh45-60",
-    "name": "Professor's Research",
-    "supertype": "Trainer",
-    "subtypes": ["Supporter"],
-    "number": "60",
-    "rarity": "Rare Holo Galaxy",
-    "images": {
-      "small": "https://images.pokemontcg.io/swsh45/60.png",
-      "large": "https://images.pokemontcg.io/swsh45/60_hires.png"
-    }
-  },
-  {
-    "id": "swshp-SWSH127",
-    "name": "Eevee",
-    "supertype": "Pokémon",
-    "subtypes": ["Basic"],
-    "number": "SWSH127",
-    "rarity": "Rare Holo Galaxy",
-    "images": {
-      "small": "https://images.pokemontcg.io/swshp/SWSH127.png",
-      "large": "https://images.pokemontcg.io/swshp/SWSH127_hires.png"
-    }
-  },
-  {
-    "id": "pgo-4",
-    "name": "Radiant Venusaur",
-    "supertype": "Pokémon",
-    "subtypes": ["Basic", "V"],
+    "id": "aoc-alpha-rf-4",
+    "name": "Ulrich",
+    "supertype": "Order",
+    "subtypes": ["Human"],
     "number": "4",
-    "rarity": "Radiant Rare",
+    "rarity": "Rare",
     "images": {
-      "small": "https://images.pokemontcg.io/pgo/4.png",
-      "large": "https://images.pokemontcg.io/pgo/4_hires.png"
+      "small": "https://cdn.discordapp.com/attachments/961652173362565180/1034186387521552515/card_3_rare_ulrich_nf.png",
+      "large": "https://cdn.discordapp.com/attachments/961652173362565180/1034186387521552515/card_3_rare_ulrich_nf.png"
     }
   },
   {
-    "id": "swsh10-46",
-    "name": "Radiant Greninja",
-    "supertype": "Pokémon",
-    "subtypes": ["Basic"],
-    "number": "46",
-    "rarity": "Radiant Rare",
+    "id": "aoc-alpha-rf-5",
+    "name": "Veena",
+    "supertype": "Order",
+    "subtypes": ["Human"],
+    "number": "5",
+    "rarity": "Epic",
     "images": {
-      "small": "https://images.pokemontcg.io/swsh10/46.png",
-      "large": "https://images.pokemontcg.io/swsh10/46_hires.png"
+      "small": "https://cdn.discordapp.com/attachments/961652173362565180/1034186389119574056/card_4_epic_veena_nf.png",
+      "large": "https://cdn.discordapp.com/attachments/961652173362565180/1034186389119574056/card_4_epic_veena_nf.png"
     }
   },
   {
-    "id": "swsh10-27",
-    "name": "Radiant Heatran",
-    "supertype": "Pokémon",
-    "subtypes": ["Basic"],
-    "number": "27",
-    "rarity": "Radiant Rare",
+    "id": "aoc-alpha-rf-6",
+    "name": "Emberlon",
+    "supertype": "Order",
+    "subtypes": ["Human"],
+    "number": "6",
+    "rarity": "Legendary",
     "images": {
-      "small": "https://images.pokemontcg.io/swsh10/27.png",
-      "large": "https://images.pokemontcg.io/swsh10/27_hires.png"
+      "small": "https://cdn.discordapp.com/attachments/961652173362565180/1034186390663073902/card_5_legendary_emberlon_nf.png",
+      "large": "https://cdn.discordapp.com/attachments/961652173362565180/1034186390663073902/card_5_legendary_emberlon_nf.png"
     }
   },
   {
-    "id": "swsh3-21",
-    "name": "Houndoom V",
-    "supertype": "Pokémon",
-    "subtypes": ["Basic", "V"],
-    "number": "21",
-    "rarity": "Rare Holo V",
+    "id": "aoc-alpha-gf-1",
+    "name": "Grumpi",
+    "supertype": "Freedom",
+    "subtypes": ["Gnome"],
+    "number": "1",
+    "rarity": "Common",
     "images": {
-      "small": "https://images.pokemontcg.io/swsh3/21.png",
-      "large": "https://images.pokemontcg.io/swsh3/21_hires.png"
+      "small": "https://cdn.discordapp.com/attachments/961652173362565180/1034315419944751104/gnome_card_1_grumpi_gf.png",
+      "large": "https://cdn.discordapp.com/attachments/961652173362565180/1034315419944751104/gnome_card_1_grumpi_gf.png"
     }
   },
   {
-    "id": "swsh1-141",
-    "name": "Snorlax V",
-    "supertype": "Pokémon",
-    "subtypes": ["Basic", "V"],
-    "number": "141",
-    "rarity": "Rare Holo V",
+    "id": "aoc-alpha-gf-2",
+    "name": "Harold",
+    "supertype": "Order",
+    "subtypes": ["Human"],
+    "number": "2",
+    "rarity": "Common",
     "images": {
-      "small": "https://images.pokemontcg.io/swsh1/141.png",
-      "large": "https://images.pokemontcg.io/swsh1/141_hires.png"
+      "small": "https://cdn.discordapp.com/attachments/961652173362565180/1034186308832206888/card_1_common_herold_gf.png",
+      "large": "https://cdn.discordapp.com/attachments/961652173362565180/1034186308832206888/card_1_common_herold_gf.png"
     }
   },
   {
-    "id": "swsh10-53",
-    "name": "Hisuian Typhlosion V",
-    "supertype": "Pokémon",
-    "subtypes": ["Basic", "V"],
-    "number": "53",
-    "rarity": "Rare Holo V",
+    "id": "aoc-alpha-gf-3",
+    "name": "Misha",
+    "supertype": "Freedom",
+    "subtypes": ["Mercenary"],
+    "number": "3",
+    "rarity": "Uncommon",
     "images": {
-      "small": "https://images.pokemontcg.io/swsh10/53.png",
-      "large": "https://images.pokemontcg.io/swsh10/53_hires.png"
+      "small": "https://cdn.discordapp.com/attachments/961652173362565180/1034186310560268349/card_2_uncommon_misha_gf.png",
+      "large": "https://cdn.discordapp.com/attachments/961652173362565180/1034186310560268349/card_2_uncommon_misha_gf.png"
     }
   },
   {
-    "id": "swsh8-250",
-    "name": "Mew V",
-    "supertype": "Pokémon",
-    "subtypes": ["Basic", "V", "Fusion Strike"],
-    "number": "250",
-    "rarity": "Rare Ultra",
+    "id": "aoc-alpha-gf-4",
+    "name": "Ulrich",
+    "supertype": "Order",
+    "subtypes": ["Human"],
+    "number": "4",
+    "rarity": "Rare",
     "images": {
-      "small": "https://images.pokemontcg.io/swsh8/250.png",
-      "large": "https://images.pokemontcg.io/swsh8/250_hires.png"
+      "small": "https://cdn.discordapp.com/attachments/961652173362565180/1034186312024076319/card_3_rare_ulrich_gf.png",
+      "large": "https://cdn.discordapp.com/attachments/961652173362565180/1034186312024076319/card_3_rare_ulrich_gf.png"
     }
   },
   {
-    "id": "swsh3-183",
-    "name": "Scizor V",
-    "supertype": "Pokémon",
-    "subtypes": ["Basic", "V"],
-    "number": "183",
-    "rarity": "Rare Ultra",
+    "id": "aoc-alpha-gf-5",
+    "name": "Veena",
+    "supertype": "Order",
+    "subtypes": ["Human"],
+    "number": "5",
+    "rarity": "Epic",
     "images": {
-      "small": "https://images.pokemontcg.io/swsh3/183.png",
-      "large": "https://images.pokemontcg.io/swsh3/183_hires.png"
+      "small": "https://cdn.discordapp.com/attachments/961652173362565180/1034186388314279986/card_4_epic_veena_GF.png",
+      "large": "https://cdn.discordapp.com/attachments/961652173362565180/1034186388314279986/card_4_epic_veena_GF.png"
     }
   },
   {
-    "id": "swsh1-190",
-    "name": "Morpeko V",
-    "supertype": "Pokémon",
-    "subtypes": ["Basic", "V"],
-    "number": "190",
-    "rarity": "Rare Ultra",
+    "id": "aoc-alpha-gf-6",
+    "name": "Emberlon",
+    "supertype": "Order",
+    "subtypes": ["Human"],
+    "number": "6",
+    "rarity": "Legendary",
     "images": {
-      "small": "https://images.pokemontcg.io/swsh1/190.png",
-      "large": "https://images.pokemontcg.io/swsh1/190_hires.png"
+      "small": "https://cdn.discordapp.com/attachments/961652173362565180/1034186389866168391/card_5_legendary_emberlon_gf.png",
+      "large": "https://cdn.discordapp.com/attachments/961652173362565180/1034186389866168391/card_5_legendary_emberlon_gf.png"
     }
   },
   {
-    "id": "swsh7-29",
-    "name": "Gyarados VMAX",
-    "supertype": "Pokémon",
-    "subtypes": ["VMAX"],
-    "number": "29",
-    "rarity": "Rare Holo VMAX",
+    "id": "aoc-alpha-rf-shiny-1",
+    "name": "Grumpi",
+    "supertype": "Freedom",
+    "subtypes": ["Gnome"],
+    "number": "1",
+    "rarity": "Common",
     "images": {
-      "small": "https://images.pokemontcg.io/swsh7/29.png",
-      "large": "https://images.pokemontcg.io/swsh7/29_hires.png"
+      "small": "https://cdn.discordapp.com/attachments/961652173362565180/1034302711644049579/gnome_card_1_grumpi_nf_shiny.png",
+      "large": "https://cdn.discordapp.com/attachments/961652173362565180/1034302711644049579/gnome_card_1_grumpi_nf_shiny.png"
     }
   },
   {
-    "id": "swsh45sv-SV111",
-    "name": "Lapras VMAX",
-    "supertype": "Pokémon",
-    "subtypes": ["VMAX"],
-    "number": "SV111",
-    "rarity": "Rare Holo VMAX",
+    "id": "aoc-alpha-rf-shiny-2",
+    "name": "Harold",
+    "supertype": "Order",
+    "subtypes": ["Human"],
+    "number": "2",
+    "rarity": "Common",
     "images": {
-      "small": "https://images.pokemontcg.io/swsh45sv/SV111.png",
-      "large": "https://images.pokemontcg.io/swsh45sv/SV111_hires.png"
+      "small": "https://cdn.discordapp.com/attachments/961652173362565180/1034186309373268069/card_1_common_herold_nf_shiny.png",
+      "large": "https://cdn.discordapp.com/attachments/961652173362565180/1034186309373268069/card_1_common_herold_nf_shiny.png"
     }
   },
   {
-    "id": "swsh9-29",
-    "name": "Kingler VMAX",
-    "supertype": "Pokémon",
-    "subtypes": ["VMAX"],
-    "number": "29",
-    "rarity": "Rare Holo VMAX",
+    "id": "aoc-alpha-rf-shiny-3",
+    "name": "Misha",
+    "supertype": "Freedom",
+    "subtypes": ["Mercenary"],
+    "number": "3",
+    "rarity": "Uncommon",
     "images": {
-      "small": "https://images.pokemontcg.io/swsh9/29.png",
-      "large": "https://images.pokemontcg.io/swsh9/29_hires.png"
+      "small": "https://cdn.discordapp.com/attachments/961652173362565180/1034186310946127882/card_2_uncommon_misha_nf_shiny.png",
+      "large": "https://cdn.discordapp.com/attachments/961652173362565180/1034186310946127882/card_2_uncommon_misha_nf_shiny.png"
     }
   },
   {
-    "id": "swshp-SWSH179",
-    "name": "Flareon V",
-    "supertype": "Pokémon",
-    "subtypes": ["Basic", "V", "Single Strike"],
-    "number": "SWSH179",
-    "rarity": "Rare Ultra",
+    "id": "aoc-alpha-rf-shiny-4",
+    "name": "Ulrich",
+    "supertype": "Order",
+    "subtypes": ["Human"],
+    "number": "4",
+    "rarity": "Rare",
     "images": {
-      "small": "https://images.pokemontcg.io/swshp/SWSH179.png",
-      "large": "https://images.pokemontcg.io/swshp/SWSH179_hires.png"
+      "small": "https://cdn.discordapp.com/attachments/961652173362565180/1034186387156639864/card_3_rare_ulrich_nf_shiny.png",
+      "large": "https://cdn.discordapp.com/attachments/961652173362565180/1034186387156639864/card_3_rare_ulrich_nf_shiny.png"
     }
   },
   {
-    "id": "swshp-SWSH181",
-    "name": "Vaporeon V",
-    "supertype": "Pokémon",
-    "subtypes": ["Basic", "V", "Rapid Strike"],
-    "number": "SWSH181",
-    "rarity": "Rare Ultra",
+    "id": "aoc-alpha-rf-shiny-5",
+    "name": "Veena",
+    "supertype": "Order",
+    "subtypes": ["Human"],
+    "number": "5",
+    "rarity": "Epic",
     "images": {
-      "small": "https://images.pokemontcg.io/swshp/SWSH181.png",
-      "large": "https://images.pokemontcg.io/swshp/SWSH181_hires.png"
+      "small": "https://cdn.discordapp.com/attachments/961652173362565180/1034186388704346202/card_4_epic_veena_nf_shiny.png",
+      "large": "https://cdn.discordapp.com/attachments/961652173362565180/1034186388704346202/card_4_epic_veena_nf_shiny.png"
     }
   },
   {
-    "id": "swshp-SWSH183",
-    "name": "Jolteon V",
-    "supertype": "Pokémon",
-    "subtypes": ["Basic", "V"],
-    "number": "SWSH183",
-    "rarity": "Rare Ultra",
+    "id": "aoc-alpha-rf-shiny-6",
+    "name": "Emberlon",
+    "supertype": "Order",
+    "subtypes": ["Human"],
+    "number": "6",
+    "rarity": "Legendary",
     "images": {
-      "small": "https://images.pokemontcg.io/swshp/SWSH183.png",
-      "large": "https://images.pokemontcg.io/swshp/SWSH183_hires.png"
+      "small": "https://cdn.discordapp.com/attachments/961652173362565180/1034186390289784902/card_5_legendary_emberlon_nf_shiny.png",
+      "large": "https://cdn.discordapp.com/attachments/961652173362565180/1034186390289784902/card_5_legendary_emberlon_nf_shiny.png"
     }
   },
   {
-    "id": "swshp-SWSH180",
-    "name": "Flareon VMAX",
-    "supertype": "Pokémon",
-    "subtypes": ["VMAX", "Single Strike"],
-    "number": "SWSH180",
-    "rarity": "Rare Rainbow Alt",
+    "id": "aoc-alpha-gf-shiny-1",
+    "name": "Grumpi",
+    "supertype": "Freedom",
+    "subtypes": ["Gnome"],
+    "number": "1",
+    "rarity": "Common",
     "images": {
-      "small": "https://images.pokemontcg.io/swshp/SWSH180.png",
-      "large": "https://images.pokemontcg.io/swshp/SWSH180_hires.png"
+      "small": "https://cdn.discordapp.com/attachments/961652173362565180/1034315419567259658/gnome_card_1_grumpi_gf_shiny.png",
+      "large": "https://cdn.discordapp.com/attachments/961652173362565180/1034315419567259658/gnome_card_1_grumpi_gf_shiny.png"
     }
   },
   {
-    "id": "swshp-SWSH182",
-    "name": "Vaporeon VMAX",
-    "supertype": "Pokémon",
-    "subtypes": ["VMAX", "Rapid Strike"],
-    "number": "SWSH182",
-    "rarity": "Rare Rainbow Alt",
+    "id": "aoc-alpha-gf-shiny-2",
+    "name": "Harold",
+    "supertype": "Order",
+    "subtypes": ["Human"],
+    "number": "2",
+    "rarity": "Common",
     "images": {
-      "small": "https://images.pokemontcg.io/swshp/SWSH182.png",
-      "large": "https://images.pokemontcg.io/swshp/SWSH182_hires.png"
+      "small": "https://cdn.discordapp.com/attachments/961652173362565180/1034186308463112284/card_1_common_herold_gf_shiny.png",
+      "large": "https://cdn.discordapp.com/attachments/961652173362565180/1034186308463112284/card_1_common_herold_gf_shiny.png"
     }
   },
   {
-    "id": "swshp-SWSH184",
-    "name": "Jolteon VMAX",
-    "supertype": "Pokémon",
-    "subtypes": ["VMAX"],
-    "number": "SWSH184",
-    "rarity": "Rare Rainbow Alt",
+    "id": "aoc-alpha-gf-shiny-3",
+    "name": "Misha",
+    "supertype": "Freedom",
+    "subtypes": ["Mercenary"],
+    "number": "3",
+    "rarity": "Uncommon",
     "images": {
-      "small": "https://images.pokemontcg.io/swshp/SWSH184.png",
-      "large": "https://images.pokemontcg.io/swshp/SWSH184_hires.png"
+      "small": "https://cdn.discordapp.com/attachments/961652173362565180/1034186310207950979/card_2_uncommon_misha_gf_shiny.png",
+      "large": "https://cdn.discordapp.com/attachments/961652173362565180/1034186310207950979/card_2_uncommon_misha_gf_shiny.png"
     }
   },
   {
-    "id": "swsh10-177",
-    "name": "Origin Forme Dialga V",
-    "supertype": "Pokémon",
-    "subtypes": ["Basic", "V"],
-    "number": "177",
-    "rarity": "Rare Ultra",
+    "id": "aoc-alpha-gf-shiny-4",
+    "name": "Ulrich",
+    "supertype": "Order",
+    "subtypes": ["Human"],
+    "number": "4",
+    "rarity": "Rare",
     "images": {
-      "small": "https://images.pokemontcg.io/swsh10/177.png",
-      "large": "https://images.pokemontcg.io/swsh10/177_hires.png"
+      "small": "https://cdn.discordapp.com/attachments/961652173362565180/1034186311654981642/card_3_rare_ulrich_gf_shiny.png",
+      "large": "https://cdn.discordapp.com/attachments/961652173362565180/1034186311654981642/card_3_rare_ulrich_gf_shiny.png"
     }
   },
   {
-    "id": "swsh8-245",
-    "name": "Celebi V",
-    "supertype": "Pokémon",
-    "subtypes": ["Basic", "V"],
-    "number": "245",
-    "rarity": "Rare Ultra",
+    "id": "aoc-alpha-gf-shiny-5",
+    "name": "Veena",
+    "supertype": "Order",
+    "subtypes": ["Human"],
+    "number": "5",
+    "rarity": "Epic",
     "images": {
-      "small": "https://images.pokemontcg.io/swsh8/245.png",
-      "large": "https://images.pokemontcg.io/swsh8/245_hires.png"
+      "small": "https://cdn.discordapp.com/attachments/961652173362565180/1034186387865468938/card_4_epic_veena_gf_shiny.png",
+      "large": "https://cdn.discordapp.com/attachments/961652173362565180/1034186387865468938/card_4_epic_veena_gf_shiny.png"
     }
   },
   {
-    "id": "swsh7-192",
-    "name": "Dragonite V",
-    "supertype": "Pokémon",
-    "subtypes": ["Basic", "V"],
-    "number": "192",
-    "rarity": "Rare Ultra",
+    "id": "aoc-alpha-gf-shiny-6",
+    "name": "Emberlon",
+    "supertype": "Order",
+    "subtypes": ["Human"],
+    "number": "6",
+    "rarity": "Legendary",
     "images": {
-      "small": "https://images.pokemontcg.io/swsh7/192.png",
-      "large": "https://images.pokemontcg.io/swsh7/192_hires.png"
-    }
-  },
-  {
-    "id": "swsh7-215",
-    "name": "Umbreon VMAX",
-    "supertype": "Pokémon",
-    "subtypes": ["VMAX", "Single Strike"],
-    "number": "215",
-    "rarity": "Rare Rainbow Alt",
-    "images": {
-      "small": "https://images.pokemontcg.io/swsh7/215.png",
-      "large": "https://images.pokemontcg.io/swsh7/215_hires.png"
-    }
-  },
-  {
-    "id": "swsh8-270",
-    "name": "Espeon VMAX",
-    "supertype": "Pokémon",
-    "subtypes": ["VMAX"],
-    "number": "270",
-    "rarity": "Rare Rainbow Alt",
-    "images": {
-      "small": "https://images.pokemontcg.io/swsh8/270.png",
-      "large": "https://images.pokemontcg.io/swsh8/270_hires.png"
-    }
-  },
-  {
-    "id": "swsh7-212",
-    "name": "Sylveon VMAX",
-    "supertype": "Pokémon",
-    "subtypes": ["VMAX", "Rapid Strike"],
-    "number": "212",
-    "rarity": "Rare Rainbow Alt",
-    "images": {
-      "small": "https://images.pokemontcg.io/swsh7/212.png",
-      "large": "https://images.pokemontcg.io/swsh7/212_hires.png"
-    }
-  },
-  {
-    "id": "swshp-SWSH195",
-    "name": "Leafeon VSTAR",
-    "supertype": "Pokémon",
-    "subtypes": ["VSTAR"],
-    "number": "SWSH195",
-    "rarity": "Rare Holo VSTAR",
-    "images": {
-      "small": "https://images.pokemontcg.io/swshp/SWSH195.png",
-      "large": "https://images.pokemontcg.io/swshp/SWSH195_hires.png"
-    }
-  },
-  {
-    "id": "swsh9-18",
-    "name": "Charizard VSTAR",
-    "supertype": "Pokémon",
-    "subtypes": ["VSTAR"],
-    "number": "18",
-    "rarity": "Rare Holo VSTAR",
-    "images": {
-      "small": "https://images.pokemontcg.io/swsh9/18.png",
-      "large": "https://images.pokemontcg.io/swsh9/18_hires.png"
-    }
-  },
-  {
-    "id": "swshp-SWSH197",
-    "name": "Glaceon VSTAR",
-    "supertype": "Pokémon",
-    "subtypes": ["VSTAR"],
-    "number": "SWSH197",
-    "rarity": "Rare Holo VSTAR",
-    "images": {
-      "small": "https://images.pokemontcg.io/swshp/SWSH197.png",
-      "large": "https://images.pokemontcg.io/swshp/SWSH197_hires.png"
-    }
-  },
-  {
-    "id": "swsh6-196",
-    "name": "Peonia",
-    "supertype": "Trainer",
-    "subtypes": ["Supporter"],
-    "number": "196",
-    "rarity": "Rare Ultra",
-    "images": {
-      "small": "https://images.pokemontcg.io/swsh6/196.png",
-      "large": "https://images.pokemontcg.io/swsh6/196_hires.png"
-    }
-  },
-  {
-    "id": "swsh9-167",
-    "name": "Barry",
-    "supertype": "Trainer",
-    "subtypes": ["Supporter"],
-    "number": "167",
-    "rarity": "Rare Ultra",
-    "images": {
-      "small": "https://images.pokemontcg.io/swsh9/167.png",
-      "large": "https://images.pokemontcg.io/swsh9/167_hires.png"
-    }
-  },
-  {
-    "id": "swsh4-183",
-    "name": "Nessa",
-    "supertype": "Trainer",
-    "subtypes": ["Supporter"],
-    "number": "183",
-    "rarity": "Rare Ultra",
-    "images": {
-      "small": "https://images.pokemontcg.io/swsh4/183.png",
-      "large": "https://images.pokemontcg.io/swsh4/183_hires.png"
-    }
-  },
-  {
-    "id": "swsh4-185",
-    "name": "Pokémon Center Lady",
-    "supertype": "Trainer",
-    "subtypes": ["Supporter"],
-    "number": "185",
-    "rarity": "Rare Ultra",
-    "images": {
-      "small": "https://images.pokemontcg.io/swsh4/185.png",
-      "large": "https://images.pokemontcg.io/swsh4/185_hires.png"
-    }
-  },
-  {
-    "id": "swsh2-189",
-    "name": "Boss's Orders",
-    "supertype": "Trainer",
-    "subtypes": ["Supporter"],
-    "number": "189",
-    "rarity": "Rare Ultra",
-    "images": {
-      "small": "https://images.pokemontcg.io/swsh2/189.png",
-      "large": "https://images.pokemontcg.io/swsh2/189_hires.png"
-    }
-  },
-  {
-    "id": "swsh6-192",
-    "name": "Honey",
-    "supertype": "Trainer",
-    "subtypes": ["Supporter"],
-    "number": "192",
-    "rarity": "Rare Ultra",
-    "images": {
-      "small": "https://images.pokemontcg.io/swsh6/192.png",
-      "large": "https://images.pokemontcg.io/swsh6/192_hires.png"
-    }
-  },
-  {
-    "id": "swsh3-193",
-    "name": "Scizor VMAX",
-    "supertype": "Pokémon",
-    "subtypes": ["VMAX"],
-    "number": "193",
-    "rarity": "Rare Rainbow",
-    "images": {
-      "small": "https://images.pokemontcg.io/swsh3/193.png",
-      "large": "https://images.pokemontcg.io/swsh3/193_hires.png"
-    }
-  },
-  {
-    "id": "swsh9-173",
-    "name": "Shaymin VSTAR",
-    "supertype": "Pokémon",
-    "subtypes": ["VSTAR"],
-    "number": "173",
-    "rarity": "Rare Rainbow",
-    "images": {
-      "small": "https://images.pokemontcg.io/swsh9/173.png",
-      "large": "https://images.pokemontcg.io/swsh9/173_hires.png"
-    }
-  },
-  {
-    "id": "swsh3-190",
-    "name": "Butterfree VMAX",
-    "supertype": "Pokémon",
-    "subtypes": ["VMAX"],
-    "number": "190",
-    "rarity": "Rare Rainbow",
-    "images": {
-      "small": "https://images.pokemontcg.io/swsh3/190.png",
-      "large": "https://images.pokemontcg.io/swsh3/190_hires.png"
-    }
-  },
-  {
-    "id": "swsh10-213",
-    "name": "Path to the Peak",
-    "supertype": "Trainer",
-    "subtypes": ["Stadium"],
-    "number": "213",
-    "rarity": "Rare Secret",
-    "images": {
-      "small": "https://images.pokemontcg.io/swsh10/213.png",
-      "large": "https://images.pokemontcg.io/swsh10/213_hires.png"
-    }
-  },
-  {
-    "id": "swsh10-214",
-    "name": "Temple of Sinnoh",
-    "supertype": "Trainer",
-    "subtypes": ["Stadium"],
-    "number": "214",
-    "rarity": "Rare Secret",
-    "images": {
-      "small": "https://images.pokemontcg.io/swsh10/214.png",
-      "large": "https://images.pokemontcg.io/swsh10/214_hires.png"
-    }
-  },
-  {
-    "id": "swsh7-232",
-    "name": "Stormy Mountains",
-    "supertype": "Trainer",
-    "subtypes": ["Stadium"],
-    "number": "232",
-    "rarity": "Rare Secret",
-    "images": {
-      "small": "https://images.pokemontcg.io/swsh7/232.png",
-      "large": "https://images.pokemontcg.io/swsh7/232_hires.png"
-    }
-  },
-  {
-    "id": "swsh5-181",
-    "name": "Level Ball",
-    "supertype": "Trainer",
-    "subtypes": ["Item"],
-    "number": "181",
-    "rarity": "Rare Secret",
-    "images": {
-      "small": "https://images.pokemontcg.io/swsh5/181.png",
-      "large": "https://images.pokemontcg.io/swsh5/181_hires.png"
-    }
-  },
-  {
-    "id": "swsh7-229",
-    "name": "Boost Shake",
-    "supertype": "Trainer",
-    "subtypes": ["Item"],
-    "number": "229",
-    "rarity": "Rare Secret",
-    "images": {
-      "small": "https://images.pokemontcg.io/swsh7/229.png",
-      "large": "https://images.pokemontcg.io/swsh7/229_hires.png"
-    }
-  },
-  {
-    "id": "swsh1-213",
-    "name": "Air Balloon",
-    "supertype": "Trainer",
-    "subtypes": ["Pokémon Tool"],
-    "number": "213",
-    "rarity": "Rare Secret",
-    "images": {
-      "small": "https://images.pokemontcg.io/swsh1/213.png",
-      "large": "https://images.pokemontcg.io/swsh1/213_hires.png"
-    }
-  },
-  {
-    "id": "swsh8-280",
-    "name": "Flaaffy",
-    "supertype": "Pokémon",
-    "subtypes": ["Stage 1"],
-    "number": "280",
-    "rarity": "Rare Secret",
-    "images": {
-      "small": "https://images.pokemontcg.io/swsh8/280.png",
-      "large": "https://images.pokemontcg.io/swsh8/280_hires.png"
-    }
-  },
-  {
-    "id": "swsh9-184",
-    "name": "Arceus VSTAR",
-    "supertype": "Pokémon",
-    "subtypes": ["VSTAR"],
-    "number": "184",
-    "rarity": "Rare Secret",
-    "images": {
-      "small": "https://images.pokemontcg.io/swsh9/184.png",
-      "large": "https://images.pokemontcg.io/swsh9/184_hires.png"
-    }
-  },
-  {
-    "id": "swsh7-227",
-    "name": "Inteleon",
-    "supertype": "Pokémon",
-    "subtypes": ["Stage 2", "Rapid Strike"],
-    "number": "227",
-    "rarity": "Rare Secret",
-    "images": {
-      "small": "https://images.pokemontcg.io/swsh7/227.png",
-      "large": "https://images.pokemontcg.io/swsh7/227_hires.png"
-    }
-  },
-  {
-    "id": "sm12-241",
-    "name": "Pikachu",
-    "supertype": "Pokémon",
-    "subtypes": ["Basic"],
-    "number": "TG241",
-    "rarity": "Rare Holo",
-    "images": {
-      "small": "https://images.pokemontcg.io/sm12/241.png",
-      "large": "https://images.pokemontcg.io/sm12/241_hires.png"
-    }
-  },
-  {
-    "id": "swsh9tg-TG11",
-    "name": "Eevee",
-    "supertype": "Pokémon",
-    "subtypes": ["Basic"],
-    "number": "TG11",
-    "rarity": "Rare Holo",
-    "images": {
-      "small": "https://images.pokemontcg.io/swsh9tg/TG11.png",
-      "large": "https://images.pokemontcg.io/swsh9tg/TG11_hires.png"
-    }
-  },
-  {
-    "id": "swsh9tg-TG07",
-    "name": "Dedenne",
-    "supertype": "Pokémon",
-    "subtypes": ["Basic"],
-    "number": "TG07",
-    "rarity": "Rare Holo",
-    "images": {
-      "small": "https://images.pokemontcg.io/swsh9tg/TG07.png",
-      "large": "https://images.pokemontcg.io/swsh9tg/TG07_hires.png"
-    }
-  },
-  {
-    "id": "swsh9tg-TG16",
-    "name": "Mimikyu V",
-    "supertype": "Pokémon",
-    "subtypes": ["Basic", "V"],
-    "number": "TG16",
-    "rarity": "Rare Holo V",
-    "images": {
-      "small": "https://images.pokemontcg.io/swsh9tg/TG16.png",
-      "large": "https://images.pokemontcg.io/swsh9tg/TG16_hires.png"
-    }
-  },
-  {
-    "id": "swsh9tg-TG18",
-    "name": "Single Strike Urshifu V",
-    "supertype": "Pokémon",
-    "subtypes": ["Basic", "V", "Single Strike"],
-    "number": "TG18",
-    "rarity": "Rare Holo V",
-    "images": {
-      "small": "https://images.pokemontcg.io/swsh9tg/TG18.png",
-      "large": "https://images.pokemontcg.io/swsh9tg/TG18_hires.png"
-    }
-  },
-  {
-    "id": "swsh10tg-TG17",
-    "name": "Shadow Rider Calyrex V",
-    "supertype": "Pokémon",
-    "subtypes": ["Basic", "V"],
-    "number": "TG17",
-    "rarity": "Rare Holo V",
-    "images": {
-      "small": "https://images.pokemontcg.io/swsh10tg/TG17.png",
-      "large": "https://images.pokemontcg.io/swsh10tg/TG17_hires.png"
-    }
-  },
-  {
-    "id": "swsh9tg-TG17",
-    "name": "Mimikyu VMAX",
-    "supertype": "Pokémon",
-    "subtypes": ["VMAX"],
-    "number": "TG17",
-    "rarity": "Rare Holo V",
-    "images": {
-      "small": "https://images.pokemontcg.io/swsh9tg/TG17.png",
-      "large": "https://images.pokemontcg.io/swsh9tg/TG17_hires.png"
-    }
-  },
-  {
-    "id": "swsh9tg-TG19",
-    "name": "Single Strike Urshifu VMAX",
-    "supertype": "Pokémon",
-    "subtypes": ["VMAX", "Single Strike"],
-    "number": "TG19",
-    "rarity": "Rare Holo V",
-    "images": {
-      "small": "https://images.pokemontcg.io/swsh9tg/TG19.png",
-      "large": "https://images.pokemontcg.io/swsh9tg/TG19_hires.png"
-    }
-  },
-  {
-    "id": "swsh10tg-TG18",
-    "name": "Shadow Rider Calyrex VMAX",
-    "supertype": "Pokémon",
-    "subtypes": ["VMAX"],
-    "number": "TG18",
-    "rarity": "Rare Holo V",
-    "images": {
-      "small": "https://images.pokemontcg.io/swsh10tg/TG18.png",
-      "large": "https://images.pokemontcg.io/swsh10tg/TG18_hires.png"
+      "small": "https://cdn.discordapp.com/attachments/961652173362565180/1034186389429964933/card_5_legendary_emberlon_gf_shiny.png",
+      "large": "https://cdn.discordapp.com/attachments/961652173362565180/1034186389429964933/card_5_legendary_emberlon_gf_shiny.png"
     }
   }
 ]
