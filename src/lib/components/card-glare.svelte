@@ -1,6 +1,6 @@
 <script>
 
-  export let subtypes = "order";
+  export let subtypes = "human";
 
 </script>
 	
