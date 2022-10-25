@@ -175,23 +175,6 @@
 		{#await getCards()}
 			loading...
 		{:then cards}
-			{#each veeAlt as card, id}
-				<Card
-					img={card.images.large}
-					number={card.number}
-					supertype='supporter'
-					subtypes={card.subtypes}
-					rarity='rare ultra'
-				/>
-			{/each}
-		{/await}
-	</CardList>
-
-	<h2>Holofoil 9</h2>
-	<CardList>
-		{#await getCards()}
-			loading...
-		{:then cards}
 			{#each veeMax as card, id}
 				<Card
 					img={card.images.large}
@@ -204,7 +187,7 @@
 		{/await}
 	</CardList>
 
-	<h2>Holofoil 10</h2>
+	<h2>Holofoil 9</h2>
 	<CardList>
 		{#await getCards()}
 			loading...
@@ -221,7 +204,7 @@
 		{/await}
 	</CardList>
 
-	<h2>Holofoil 11</h2>
+	<h2>Holofoil 10</h2>
 	<CardList>
 		{#await getCards()}
 			loading...
@@ -238,7 +221,7 @@
 		{/await}
 	</CardList>
 
-	<h2>Holofoil 12</h2>
+	<h2>Holofoil 11</h2>
 	<CardList>
 		{#await getCards()}
 			loading...
@@ -255,7 +238,7 @@
 		{/await}
 	</CardList>
 	
-	<h2>Holofoil 13</h2>
+	<h2>Holofoil 12</h2>
 	<CardList>
 		{#await getCards()}
 			loading...
@@ -272,7 +255,7 @@
 		{/await}
 	</CardList>
 
-	<h2>Holofoil 14</h2>
+	<h2>Holofoil 13</h2>
 	<CardList>
 		{#await getCards()}
 			loading...
@@ -289,7 +272,7 @@
 		{/await}
 	</CardList>
 
-	<h2>Holofoil 15</h2>
+	<h2>Holofoil 14</h2>
 	<CardList>
 		{#await getCards()}
 			loading...
@@ -301,23 +284,6 @@
 					supertype='pokémon'
 					subtypes={card.subtypes}
 					rarity='rare holo v'
-				/>
-			{/each}
-		{/await}
-	</CardList>
-
-	<h2>Holofoil 16</h2>
-	<CardList>
-		{#await getCards()}
-			loading...
-		{:then cards}
-			{#each veeGallery as card, id}
-				<Card
-					img={card.images.large}
-					number={card.number}
-					supertype='pokémon'
-					subtypes={card.subtypes}
-					rarity={card.rarity}
 				/>
 			{/each}
 		{/await}
