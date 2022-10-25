@@ -294,6 +294,10 @@
 			}, 2000);
 		}
 	});
+	document.addEventListener("mouseout", () => {
+	  	console.log("mouseout");
+		interactEnd(null, 0);
+	});
 	document.addEventListener("mouseleave", () => {
 	  	console.log("mouseleave");
 		interactEnd(null, 0);
@@ -325,7 +329,7 @@
 			bind:this={rotator}
 			on:pointerup={activate}
 			on:pointermove={interact}
-			on:mouseleave={interactEnd}
+			on:mouseleave={deactivate}
 			on:blur={deactivate}
 			tabindex=0
 		>
