@@ -13,7 +13,7 @@
 
 	export let number = cardBack;
 	export let subtypes = "human";
-	export let supertype = "freedom";
+	export let supertype = "order";
 	export let rarity = "common";
 	export let gallery = false;
 	export let showcase = false;
