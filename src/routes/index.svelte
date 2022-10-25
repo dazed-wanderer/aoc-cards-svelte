@@ -72,41 +72,6 @@
 		{#await getCards()}
 			loading...
 		{:then cards}
-			{#each holos as card, id}
-				<Card
-					img={card.images.large}
-					number={card.number}
-					supertype='pokémon'
-					subtypes='basic'
-					rarity='rare holo'
-				/>
-			{/each}
-		{/await}
-	</CardList>
-
-	<h2>Holofoil 2</h2>
-
-	<CardList>
-		{#await getCards()}
-			loading...
-		{:then cards}
-			{#each galaxies as card, id}
-				<Card
-					img={card.images.large}
-					number={card.number}
-					supertype='pokémon'
-					subtypes='stage'
-					rarity="rare holo galaxy"
-				/>
-			{/each}
-		{/await}
-	</CardList>
-
-	<h2>Holofoil 3</h2>
-	<CardList>
-		{#await getCards()}
-			loading...
-		{:then cards}
 			{#each radiant as card, id}
 				<Card
 					img={card.images.large}
@@ -119,7 +84,7 @@
 		{/await}
 	</CardList>
 
-	<h2>Holofoil 4</h2>
+	<h2>Holofoil 2</h2>
 	<CardList>
 		{#await getCards()}
 			loading...
@@ -136,7 +101,7 @@
 		{/await}
 	</CardList>
 
-	<h2>Holofoil 6</h2>
+	<h2>Holofoil 3</h2>
 	<CardList>
 		{#await getCards()}
 			loading...
@@ -153,7 +118,7 @@
 		{/await}
 	</CardList>
 
-	<h2>Holofoil 7</h2>
+	<h2>Holofoil 4</h2>
 	<CardList>
 		{#await getCards()}
 			loading...
@@ -170,7 +135,7 @@
 		{/await}
 	</CardList>
 
-	<h2>Holofoil 8</h2>
+	<h2>Holofoil 5</h2>
 	<CardList>
 		{#await getCards()}
 			loading...
@@ -187,7 +152,7 @@
 		{/await}
 	</CardList>
 
-	<h2>Holofoil 9</h2>
+	<h2>Holofoil 6</h2>
 	<CardList>
 		{#await getCards()}
 			loading...
@@ -204,7 +169,7 @@
 		{/await}
 	</CardList>
 
-	<h2>Holofoil 10</h2>
+	<h2>Holofoil 7</h2>
 	<CardList>
 		{#await getCards()}
 			loading...
@@ -221,7 +186,7 @@
 		{/await}
 	</CardList>
 
-	<h2>Holofoil 11</h2>
+	<h2>Holofoil 8</h2>
 	<CardList>
 		{#await getCards()}
 			loading...
@@ -237,25 +202,8 @@
 			{/each}
 		{/await}
 	</CardList>
-	
-	<h2>Holofoil 12</h2>
-	<CardList>
-		{#await getCards()}
-			loading...
-		{:then cards}
-			{#each trainerHolo as card, id}
-				<Card
-					img={card.images.large}
-					number={card.number}
-					supertype='supporter'
-					subtypes='supporter'
-					rarity='rare holo'
-				/>
-			{/each}
-		{/await}
-	</CardList>
 
-	<h2>Holofoil 13</h2>
+	<h2>Holofoil 9</h2>
 	<CardList>
 		{#await getCards()}
 			loading...
@@ -272,7 +220,7 @@
 		{/await}
 	</CardList>
 
-	<h2>Holofoil 14</h2>
+	<h2>Holofoil 10</h2>
 	<CardList>
 		{#await getCards()}
 			loading...
