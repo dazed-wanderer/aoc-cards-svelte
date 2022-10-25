@@ -124,7 +124,7 @@
 	};
 
 	const deactivate = (e) => {
-		interactEnd();
+		interactEnd(e, 0);
 		$activeCard = undefined;
 	}
 
@@ -295,11 +295,6 @@
 
 			}, 2000);
 		}
-	});
-	window.addEventListener("blur", function() {
-		setTimeout(() => {
-			interactEnd(null, 0);
-		}, 1000 );
 	});
 	
 </script>
