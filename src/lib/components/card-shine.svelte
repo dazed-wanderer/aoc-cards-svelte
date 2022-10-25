@@ -1,7 +1,7 @@
 <script>
 
-  export let subtypes = "basic";
-  export let supertype = "pokémon";
+  export let subtypes = "human";
+  export let supertype = "order";
 
 </script>
 
