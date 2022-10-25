@@ -32,7 +32,7 @@
   --bars: 24px;
   --bar-color: rgba(255, 255, 255, 0.6);
   --bar-bg: rgb(10, 10, 10);
-
+ --imgsize: 60% 30%;
   clip-path: inset( 10% 8.5% 52.5% 8.5% );
 
   background-image:
@@ -88,8 +88,12 @@
       );
 
   background-blend-mode: soft-light, soft-light, screen, overlay;
-  background-position: center, calc(((50% - var(--posx)) * 25) + 50%) center, calc(var(--posx)*-1.2) var(--posy), var(--pos), center;
-  background-size: var(--imgsize), 200% 700%, 300%, 200%;
+  background-size: var(--imgsize), 1100% 1100%, 600% 600%, 200% 200%;
+  background-position: 
+    center, 
+    0% var(--posy), 
+    var(--posx) var(--posy), 
+    var(--posx) var(--posy);
 
   filter: brightness(calc((var(--hyp) + 0.7)*0.7)) contrast(3) saturate(.35);
 
@@ -145,6 +149,7 @@
   --bars: 50px;
   --bar-color: rgba(255, 255, 255, 0.6);
   --bar-bg: rgb(10, 10, 10);
+  --imgsize: 60% 30%;
 
   clip-path: inset( 10% 8.5% 52.5% 8.5% );
 
@@ -171,8 +176,12 @@
   );
 
   background-blend-mode: color-dodge, color-burn, saturation, screen;
-  background-position: center, center, center, calc(((50% - var(--posx)) * 2.5) + 50%) calc(((50% - var(--posy)) * 2.5) + 50%), center;
-  background-size: var(--imgsize), 200% 700%, 300%, 200%;
+  background-size: var(--imgsize), 1100% 1100%, 600% 600%, 200% 200%;
+  background-position: 
+    center, 
+    0% var(--posy), 
+    var(--posx) var(--posy), 
+    var(--posx) var(--posy);
 
   filter: brightness(.75) contrast(1.2) saturate(1.5);
   mix-blend-mode: color-dodge;
