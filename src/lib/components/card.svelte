@@ -125,7 +125,10 @@
 		interactEnd(e, 0);
 		$activeCard = undefined;
 	}
-
+	const mouseOut = (e) => {
+		interactEnd(e, 2000);
+		$activeCard = undefined;
+	}
 	const reposition = (e) => {
 		clearTimeout(debounce);
 		debounce = setTimeout(() => {
@@ -295,7 +298,7 @@
 		}
 	});
 	document.addEventListener("mouseout", () => {
-	  	console.log("mouseout4");
+	  	console.log("mouseout5");
 		//interactEnd(null, 2000);
 	});
 	document.addEventListener("mouseleave", () => {
@@ -329,8 +332,7 @@
 			bind:this={rotator}
 			on:pointerup={activate}
 			on:pointermove={interact}
-			
-		     	on:mouseout={interactEnd}
+		     	on:mouseout={mouseOut}
 			on:blur={deactivate}
 			tabindex=0
 		>
