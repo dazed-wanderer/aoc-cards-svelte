@@ -84,7 +84,7 @@
 		});
 		setTimeout(function () {
 			interactEnd(e, 500);
-		}, 2000);
+		}, 500);
 	};
 
 	const interactEnd = (e, delay = 500) => {
@@ -323,7 +323,7 @@
 			bind:this={rotator}
 			on:pointerup={activate}
 			on:pointermove={interact}
-			on:mouseout={interactEnd}
+			on:mouseout={deactivate}
 			on:blur={deactivate}
 			tabindex=0
 		>
