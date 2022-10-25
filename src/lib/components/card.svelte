@@ -8,17 +8,17 @@
 	import Glare from "$lib/components/card-glare.svelte";
 	import Shine from "$lib/components/card-shine.svelte";
 
-	export let cardBack = "https://tcg.pokemon.com/assets/img/global/tcg-card-back-2x.jpg";
+	export let cardBack = "https://cdn.discordapp.com/attachments/961652173362565180/1034320770333167696/tcg-card-back-2x.jpg";
 	export let img = cardBack;
 
 	export let number = cardBack;
-	export let subtypes = "basic";
-	export let supertype = "pokémon";
+	export let subtypes = "human";
+	export let supertype = "freedom";
 	export let rarity = "common";
 	export let gallery = false;
 	export let showcase = false;
 
-	const base = "https://images.pokemontcg.io/"
+	const base = "https://repo.phoenix-arcade.com/"
 
 	let thisCard;
 	let rotator;
