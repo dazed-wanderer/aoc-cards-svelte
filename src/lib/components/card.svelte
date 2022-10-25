@@ -325,7 +325,7 @@
 			bind:this={rotator}
 			on:pointerup={activate}
 			on:pointermove={interact}
-			on:mouseleave={deactivate}
+			on:mouseleave={interactEnd}
 			on:blur={deactivate}
 			tabindex=0
 		>
