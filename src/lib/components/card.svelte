@@ -330,7 +330,7 @@
 			on:pointerup={activate}
 			on:pointermove={interact}
 			on:mouseleave={deactivate}
-		     	on:mouseout={deactivate}
+		     	on:mouseout={interactEnd}
 			on:blur={deactivate}
 			tabindex=0
 		>
