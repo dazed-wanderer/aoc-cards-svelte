@@ -298,11 +298,11 @@
 			}, 2000);
 		}
 	});
-	window.onfocus = function() {
+	document.addEventListener("visibilitychange", () => {
 	  	console.log("on focus");
 		resetBaseOrientation();
 		interactEnd(null, 0);
-	};
+	});
 	document.addEventListener("mouseleave", () => {
 	  	console.log("mouseleave");
 		interactEnd(null, 0);
