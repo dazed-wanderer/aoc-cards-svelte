@@ -83,13 +83,13 @@
 			o: 1
 		});
 		setTimeout(function () {
-			interactEnd(e, 5000);
+			interactEnd(e, 500);
 		});
 	};
 
 	const interactEnd = (e, delay = 500) => {
 		setTimeout(function () {
-
+			
 			const snapStiff = 0.01;
 			const snapDamp = 0.06;
 			interacting = false;
@@ -105,6 +105,7 @@
 			springBackground.stiffness = snapStiff;
 			springBackground.damping = snapDamp;
 			springBackground.set({ x: 50, y: 50 });
+			console.log('Interact End');
 
 		}, delay);
 	};
