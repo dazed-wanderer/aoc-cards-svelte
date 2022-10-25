@@ -82,6 +82,9 @@
 			y: percent.y,
 			o: 1
 		});
+		setTimeout(function () {
+			interactEnd(e, 5000);
+		});
 	};
 
 	const interactEnd = (e, delay = 500) => {
