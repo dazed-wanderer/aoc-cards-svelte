@@ -296,7 +296,9 @@
 			}, 2000);
 		}
 	});
-	
+	window.addEventListener('mouseleave', function(){
+		console.log('Mouseleave');
+	});
 </script>
 
 <svelte:window on:scroll="{reposition}" />
