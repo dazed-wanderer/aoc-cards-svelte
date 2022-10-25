@@ -298,9 +298,10 @@
 			}, 2000);
 		}
 	});
-	document.addEventListener("mouseout", () => {
-	  	
-		//interactEnd(null, 2000);
+	window.addEventListener("onfocus", () => {
+	  	console.log("onfocus");
+		resetBaseOrientation();
+		interactEnd(null, 0);
 	});
 	document.addEventListener("mouseleave", () => {
 	  	console.log("mouseleave");
@@ -308,6 +309,7 @@
 	});
 	document.addEventListener("mouseenter", () => {
 	  	console.log("mouseenter");
+		resetBaseOrientation();
 		interactEnd(null, 0);
 	});
 </script>
