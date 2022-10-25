@@ -297,7 +297,7 @@
 		}
 	});
 	document.addEventListener("mouseout", () => {
-	  	console.log("mouseout5");
+	  	console.log("mouseout6");
 		//interactEnd(null, 2000);
 	});
 	document.addEventListener("mouseleave", () => {
